@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <link href="favicon.svg" rel="icon" type="image/svg+xml" />
-
-    <title>Front-end Assignment</title>
-  </head>
-
-  <body>
-    <main>
-      <form>
-        <!-- The application form goes here -->
-      </form>
-    </main>
-
-    <script src="js/default.js"></script>
-  </body>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form</title>
+    <script defer src="js/default.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Accessible User Information Form</h1>
+    <form id="dynamicForm" novalidate>
+        <div id="formContainer"></div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="statusMessage" role="alert"></div>
+</body>
 </html>

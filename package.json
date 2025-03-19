@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NYCOpportunity/front-end-assignment#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.17.1"
   }
 }
